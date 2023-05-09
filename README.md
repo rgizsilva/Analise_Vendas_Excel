@@ -1,6 +1,7 @@
 # Análise de Vendas utilizando Excel e Power Bi 
 
 <img src="https://raw.githubusercontent.com/rgizsilva/Analise_Vendas_Excel/main/Imagens/excel_capa.jpg" height="200" width="500"/>
+----
 
 O projeto consiste em fazer análises sobre as vendas de uma empresa, trazendo informações estatísticas e gerando insights para tomada de decisão.
 
