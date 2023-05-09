@@ -4,7 +4,7 @@
 
 ## Objetivo:
 
-O objetivo do projeto consiste em fazer análises sobre as vendas de uma empresa, trazendo informações estatísticas dos registros de vendas, gerando informações e insights para tomada de decisão.
+O objetivo do projeto consiste em fazer análises sobre as vendas de uma empresa, trazendo informações estatísticas dos registros de vendas, gerando informações e insights para tomada de futuras decisões.
 ## Método:
 
 Estatística/Business Intelligence
