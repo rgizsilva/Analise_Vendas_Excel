@@ -1,17 +1,26 @@
 # Análise de Vendas utilizando Excel e Power Bi 
 
 <img src="https://raw.githubusercontent.com/rgizsilva/Analise_Vendas_Excel/main/Imagens/excel_capa.jpg" height="200" width="500"/>
-----
 
-O projeto consiste em fazer análises sobre as vendas de uma empresa, trazendo informações estatísticas e gerando insights para tomada de decisão.
+## Objetivo:
 
-Utilizando o Microsoft Excel, fiz uma análise exploratória para entender como os dados estão distribuídos, se existe alguma inconsistência nos dados. Nessa exploratória, podemos perceber que existem dados faltantes de alguns produtos em alguns meses para algumas regiões, fazendo a gente pensar que o estoque desse produto demorou ser abastecido, ou houve erro na hora de registrar essas vendas e não foram computados no banco de dados.
+O objetivo do projeto consiste em fazer análises sobre as vendas de uma empresa, trazendo informações estatísticas dos registros de vendas, gerando informações e insights para tomada de decisão.
+## Método:
 
-Conseguimos mostrar como estão as vendas para cada região fazendo comparações entre elas. O mesmo com produtos, mostrando quais são os mais vendidos, e os que mais faturam.
+Estatística/Business Intelligence
 
-Também levantamos algumas hipóteses. Uma delas foi para verificar se existe alguma relação linear entre a quantidade de produto vendido por pedido com o seu valor, descobrindo que não existe relação, ou seja, o produto ser mais caro ou mais barato não influencia no número de vendas. E a hipótese sobre uma campanha da empresa em aumentar a comissão de vendas de um produto para tentar aumentar as vendas do mesmo. Através do teste de hipótese realizado, vimos que essa campanha não surtiu o efeito esperado e o produto não passou a ser vendido com mais frequência.
+## Ferramentas:
 
-Para finalizar, foi feito um Dashboard com Microsoft Power Bi para acompanhar melhor os indicadores e medidas de gestão sobre as vendas, como calcular ticket- médio, custo e lucro de cada venda, ver a distribuição desses dados durante algum período específico, e fazer comparações com o mês anterior.
+Microsoft Excel/Power BI
 
+## Resumo:
+
+Começando com Estatística Descritiva, analisamos como estão distribuidos nossos dados em cada variável. Utilizando filtros, fizemos uma sumarizção pra entender melhor do negócio, como por exemplo onde a empresa atua, quais são os produtos que a empresa comercializa, algumas frequências de distribuições dos dados em cada região/cidade e testamos algumas medidas centrais para avaliar melhor a venda de um produto, como a sua média e seu volume de venda.
+
+Partindo para a Estatística Bivariada, checou-se a relação de duas variáveis (valor do produto e quantidade vendida) para testar a hipótese se existe alguma relação linear, entre o valor do produto e a sua quantidade vendida. Depois foi realizado  testes de hipóteses para verificar a média de vendas de dois produtos. A idéia era identificar se um produto X possuia a mesma média de vendas do produto mais vendido pela a empresa, e posteriormente, se após uma campanha interna da empresa, o número de vendas desse produto havia aumentado significativamente. 
+
+Por último, criei um Dashboard com PowerBI para analisar de forma comercial através de medidas e indicadores, como estavam indo as vendas. Fizemos comparações entre as vendas, podendo identificar se houve aumento de lucro ou prejuízo para a empresa de acordo com o mês anterior. A conclusão das análises podem ser vistas na parte final do projeto.
+
+OBS:
 Como o Github não visualiza o Dashboard interativo do PowerBi, o projeto completo pode ser visto acessando o link abaixo: 
-https://nbviewer.org/github/rgizsilva/Analise_Vendas_Excel/blob/main/Analise_Excel_vendas.ipynb
+https://nbviewer.org/github/rgizsilva/Analise_Vendas_Excel_PowerBi/blob/main/Analise_Excel_PowerBi_Completo.ipynb
